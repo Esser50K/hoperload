@@ -21,10 +21,10 @@ Create a new visual studio C++ empty project, git clone the files, and copy them
 
 Select the "Show All Files" options in Solution Explorer, and right-click on the src/ and deps/ directory, and choose the "include in project options"
 
-Go into the project properies and under `C/C++ > General`, add the deps/ directory as an additional include directy.
+Go into the project properties and under `C/C++ > General`, add the deps/ directory as an additional include direct.
 
 
-Finally, under `Linker > Input`, add OpenGL32.lib as an additional dependancy. 
+Finally, under `Linker > Input`, add OpenGL32.lib as an additional dependency. 
 
 ### Linux
 
@@ -58,5 +58,6 @@ sh scripts/run.sh release
 ```
 
 []: https://www.sfml-dev.org/download/sfml/2.5.1/
+
 
 
